@@ -28,7 +28,6 @@ jobs:
           cache: "pnpm"
           cache-dependency-path: ./pnpm-lock.yaml
       - name: Install dependencies
-        working-directory: ./site
         run: pnpm install
       - name: Run Astro check
         run: pnpm check
