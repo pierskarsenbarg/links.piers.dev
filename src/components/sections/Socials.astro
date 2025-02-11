@@ -17,6 +17,8 @@ import Twitch from "@/icons/Twitch.astro";
 import WhatsApp from "@/icons/WhatsApp.astro";
 import X from "@/icons/X.astro";
 import YouTube from "@/icons/YouTube.astro";
+import Twitter from "@/icons/Twitter.astro";
+import BlueSky from "@/icons/BlueSky.astro";
 
 const SOCIAL_ICONS: Record<string, any> = {
   Discord,
@@ -33,7 +35,9 @@ const SOCIAL_ICONS: Record<string, any> = {
   Twitch,
   WhatsApp,
   X,
-  YouTube
+  YouTube,
+  Twitter,
+  BlueSky,
 };
 ---
 
@@ -41,14 +45,20 @@ const SOCIAL_ICONS: Record<string, any> = {
   <div class="container">
     {
       socials.map(({ network, username, url }) => {
-        const Icon = SOCIAL_ICONS[network];
+    const Icon = SOCIAL_ICONS[network];
+    let relValue = "noopener noreferrer"
+    let label = `Visit the profile of ${username} on ${network}`
+        if (url === "https://piers.dev") {
+    relValue = "noopener"
+    label = `Piers Karsenbarg website`
+    }
 
         return (
           <a
             href={url}
-            aria-label={`Visita el perfil de ${username} en ${network}`}
+      aria-label={label}
             target="_blank"
-            rel="noopener noreferrer"
+      rel={relValue}
           >
             <Icon />
           </a>
