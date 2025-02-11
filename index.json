@@ -10,7 +10,7 @@
     "secondColor": "#B38AC2"
   },
   "header": {
-    "image": "/profile.webp",
+    "image": "/File_000.jpeg",
     "alt": "Image of Piers Karsenbatgh",
     "title": "Piers Karsenbarg",
     "description": "Solutions Architect, Pulumi",
@@ -25,7 +25,17 @@
     {
       "network": "LinkedIn",
       "username": "pierskarsenbarg",
-      "url": "https://www.linkedin.com/in/piers-karsenbarg/?locale=en_US"
+      "url": "https://www.linkedin.com/in/piers-karsenbarg/"
+    },
+    {
+      "network": "BlueSky",
+      "username": "piers.dev",
+      "url": "https://bsky.app/profile/piers.dev"
+    },
+    {
+      "network": "Link",
+      "username": "",
+      "url": "https://piers.dev"
     },
     {
       "network": "Mail",
@@ -33,9 +43,9 @@
       "url": "mailto:piers@pulumi.com"
     },
     {
-      "network": "Link",
-      "username": "JSONLinks",
-      "url": "https://jsonlinks.netlify.app/templates"
+      "network": "X",
+      "username": "pierskarsenbarg",
+      "url": "https://x.com/pierskarsenbarg"
     }
   ],
   "featured": [
@@ -59,14 +69,6 @@
       "borderRadius": ".75rem"
     },
     {
-      "network": "Instagram",
-      "url": "https://www.instagram.com/marcosklender",
-      "title": "Follow me on Instagram",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
-    },
-    {
       "network": "Mail",
       "url": "mailto:marcosklender@gmail.com",
       "title": "Contact me anytime",
@@ -76,8 +78,8 @@
     },
     {
       "network": "Link",
-      "url": "https://jsonlinks.netlify.app/templates",
-      "title": "See more templates",
+      "url": "https://www.getclockwise.com/c/piers-karsenbarg/30-min-call",
+      "title": "Set up a call",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
