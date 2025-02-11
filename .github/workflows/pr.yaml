@@ -31,11 +31,8 @@ jobs:
         working-directory: ./site
         run: pnpm install
       - name: Run Astro check
-        working-directory: ./site
         run: pnpm check
       - name: Run linter
-        working-directory: ./site
         run: pnpm lint
       - name: Run build
-        working-directory: ./site
         run: pnpm build
