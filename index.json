@@ -6,12 +6,12 @@
     "favicon": "/favicon.svg"
   },
   "background": {
-    "firstColor": "#454281",
-    "secondColor": "#B38AC2"
+    "firstColor": "#000428",
+    "secondColor": "#004e92"
   },
   "header": {
     "image": "/File_000.jpeg",
-    "alt": "Image of Piers Karsenbatgh",
+    "alt": "Piers Karsenbarg",
     "title": "Piers Karsenbarg",
     "description": "Solutions Architect, Pulumi",
     "textColor": "white"

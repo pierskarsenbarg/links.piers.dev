@@ -1,13 +1,15 @@
 ---
 import { header } from "index.json";
 import Section from "@/components/Section.astro";
+import { Image } from "astro:assets";
+import profilePic from "../../images/File_000.jpeg"
 
-const { title, description, image, alt, textColor } = header;
+const { title, description, alt, textColor } = header;
 ---
 
 <Section>
   <div class="container" style={`color: ${textColor};`}>
-    <img src=`${image}` alt=`${alt}` />
+    <Image src={profilePic} alt={alt} width="128" loading="eager"/>
     <h1>{title}</h1>
     <h2>{description}</h2>
   </div>
