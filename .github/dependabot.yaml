@@ -7,11 +7,18 @@ version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
-    commit-message:
-      prefix: "astro"
     schedule:
       interval: "weekly"
-      time: "08:00"
+      time: "05:00"
       day: "sunday"
     assignees:
       - "pierskarsenbarg"
+    groups:
+      astro:
+        patterns:
+          - "astro*"
+      other:
+        patterns:
+          - "*"
+        exclude-patterns:
+          - "astro*"
