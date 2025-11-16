@@ -13,6 +13,9 @@ updates:
       day: "sunday"
     assignees:
       - "pierskarsenbarg"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
     groups:
       astro:
         patterns:
@@ -22,3 +25,14 @@ updates:
           - "*"
         exclude-patterns:
           - "astro*"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    schedule:
+      interval: "weekly"
+      time: "05:00"
+      day: "sunday"
+    assignees:
+      - "pierskarsenbarg"
