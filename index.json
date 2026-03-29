@@ -75,14 +75,6 @@
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
-    },
-    {
-      "network": "Link",
-      "url": "https://www.getclockwise.com/c/piers-karsenbarg/30-min-call",
-      "title": "Set up a call",
-      "textColor": "#FFF",
-      "backgroundColor": "#000",
-      "borderRadius": ".75rem"
     }
   ],
   "footer": {
