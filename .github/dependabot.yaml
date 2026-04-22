@@ -13,6 +13,11 @@ updates:
       day: "sunday"
     assignees:
       - "pierskarsenbarg"
+    allow:
+      - dependency-type: "production"
+        version-update-kind: "minor"
+      - dependency-type: "development"
+        version-update-kind: "minor"
     commit-message:
       prefix: "chore"
       include: "scope"
