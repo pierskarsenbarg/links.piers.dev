@@ -21,6 +21,11 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
+    ignore:
+      # TypeScript 7 (the native compiler) drops the JS API that
+      # @astrojs/check relies on; stay on 6.x until Astro supports it
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
     groups:
       astro:
         patterns:
